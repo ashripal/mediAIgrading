@@ -1,0 +1,122 @@
+{
+  "questions": [{
+    "question": "Hi, I would like to book an appointment with the general doctor on October 2nd, around 10 AM. Is that possible?",
+    "type": "simple-doctor"
+  },
+  {
+    "question": "Can you please schedule me an appointment with a general physician on September 30th at 4 PM?",
+    "type": "simple-doctor"
+  },
+  {
+    "question": "I need to see a general doctor next week. Can you book an appointment for Monday, anytime in the afternoon?",
+    "type": "simple-doctor"
+  },
+  {
+    "question": "Is there an available slot with the general doctor for tomorrow at 9 AM?",
+    "type": "simple-doctor"
+  },
+  {
+    "question": "I would like to book a consultation with my doctor.",
+    "type": "simple-doctor"
+  },
+  {
+    "question": "Can you please schedule an appointment with a cardiologist on October 12th around 2 PM?",
+    "type": "simple-special"
+  },
+  {
+    "question": "I’m having severe acne and rashes all over my face! Do you have any openings on Wednesday at 11 AM?",
+    "type": "simple-special"
+  },
+  {
+    "question": "Can I book an appointment with the orthopedic specialist? My foot has been hurting for days after I stepped on a big rock.",
+    "type": "simple-special"
+  },
+  {
+    "question": "Is it possible to get an appointment with a neurologist on September 28th, around 1 PM?",
+    "type": "simple-special"
+  },
+  {
+    "question": "Please book an appointment with a gastroenterologist for me on October 3rd, anytime after 10 AM.",
+    "type": "simple-special"
+  },
+  {
+    "question": "Hey! Can I pls get an appt with the doc on Oct 3 @ 11 AM? Thx!",
+    "type": "lingo-doctor"
+  },
+  {
+    "question": "Need to see GP next Mon. Can u book me for 2 PM?",
+    "type": "lingo-doctor"
+  },
+  {
+    "question": "Yo, anything w/ the general doc on Sept 28? Mornin' works.",
+    "type": "lingo-doctor"
+  }.
+  {
+    "question": "Hey, can u hook me up w/ an appt for the gen doc this Thurs @ 4 PM?",
+    "type": "lingo-doctor"
+  },
+  {
+    "question": "I need an appt w/ the doc ASAP. U got anything for Oct 2 in the afternoon?",
+    "type": "lingo-doctor"
+  },
+  {
+    "question": "Can y'all get me a doc for skin probs? Imma see them on Oct 5 @ 10 AM.",
+    "type": "lingo-special"
+  },
+  {
+    "question": "Need to see a doc about my knee pain. U got any openings on Oct 1 aftn?",
+    "type": "lingo-special"
+  },
+  {
+    "question": "Hey! Book me with someone for heart checkup on Sept 30. Need around 3 PM. Thx!",
+    "type": "lingo-special"
+  },
+  {
+    "question": "Yo, I’ve been having headaches. Can I see someone on Oct 6? Anything @ noon?",
+    "type": "lingo-special"
+  },
+  {
+    "question": "Can u book me with a doc for stomach issues next Wed? Anytime after 11 AM works!",
+    "type": "lingo-special"
+  },
+  {
+    "question": "Um, so, I was kinda wondering if I could, like, maybe book an appointment with, you know, a general doctor, maybe on, uh, like, September 27th, around 11ish?",
+    "type": "filler-doctor"
+  },
+  {
+    "question": "Hi, uh, I’m not really sure, but could I, uh, possibly get an appointment, um, with a general doctor, like, next Tuesday? Maybe, uh, in the afternoon?",
+    "type": "filler-doctor"
+  },
+  {
+    "question": "I’m sorta tryna to see if there’s any, like, chance I could, you know, book an appointment with, um, the general doctor, maybe sometime, uh, on October 1st?",
+    "type": "filler-doctor"
+  },
+  {
+    "question": "Hey, so, I was thinking, could I, uh, maybe get an appointment with a general doc on, like, Friday, around, um, 9 AM?",
+    "type": "filler-doctor"
+  },
+  {
+    "question": "Uh, can you, like, help me with booking a, um, general doctor appointment, maybe, um, for next Monday? Like, in the morning or something?",
+    "type": "filler-doctor"
+  },
+  {
+    "question": "Um, hi, I was, like, wondering if I could maybe, um, get an appointment with, uh, a doctor for my skin, like, sometime around, uh, October 9th?",
+    "type": "filler-special"
+  },
+  {
+    "question": "So, um, I kinda need to see someone, um, about my knee pain, maybe, like, next Thursday, around, uh, noon-ish?",
+    "type": "filler-special"
+  },
+  {
+    "question": "Hey, uh, could I, you know, get an appointment with, um, a doctor for my heart? Like, maybe sometime, um, on the 4th of October?",
+    "type": "filler-special"
+  },
+  {
+    "question": "Uh, is there, like, any chance I could, um, maybe book an appointment with, uh, someone for these headaches on, um, September 29th?",
+    "type": "filler-special"
+  },
+  {
+    "question": "So, I was, uh, kinda thinking I need to, like, see a doc for my stomach, um, sometime on, like, October 6th. Does 2 PM work?",
+    "type": "filler-special"
+  }]
+}
