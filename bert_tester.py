@@ -54,7 +54,6 @@ def save_responses(path_to_json, responses):
     with open(path_to_json, 'w') as f:
         json.dump(responses, f, indent=4)
 
-
 # Script to process questions and generate responses
 def process_questions(input_file, output_file):
     data = load_json(input_file)
