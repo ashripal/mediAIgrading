@@ -38,7 +38,7 @@ llm_prompts = load_json("LLMPrompts.json")
 #     return response
 
 # generate a patient response based on the type of question
-def generate_patient_response(question_text, response_type):
+def generate_patient_response(question_text, symptoms, available_times, response_type):
     # Define different speech styles in prompts
     if response_type == 'simple':
         style_prompt = "The patient is responding in clear, simple English. No complex words."
@@ -50,6 +50,9 @@ def generate_patient_response(question_text, response_type):
     prompt = f"""
     You are a patient having a conversation with a doctor. The doctor has asked the following question:
     {question_text}
+
+    Your symptoms are: {symptoms}.
+    Available times for the appointment are: {available_times}.
 
     {style_prompt}
     Respond to the question in 1 to 2 sentences in the given style.

@@ -1,0 +1,446 @@
+{
+  "questions": [
+    {
+      "question": "Hi, I would like to book an appointment with a general physician. I'm available on November 3rd, 5th, or 7th, preferably in the morning. Is that possible?",
+      "symptoms": "Mild headache and fatigue",
+      "type": "general-physician",
+      "available_times": {
+        "November 3": ["8:00 AM", "9:00 AM"],
+        "November 5": ["9:00 AM", "10:00 AM"],
+        "November 7": ["8:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "I need to see a neurologist. I'm free on November 8th, 10th, or 12th, around noon. Can I schedule something?",
+      "symptoms": "Dizziness and occasional numbness in hands",
+      "type": "neurologist",
+      "available_times": {
+        "November 8": ["12:00 PM", "1:00 PM"],
+        "November 10": ["12:00 PM", "2:00 PM"],
+        "November 12": ["11:00 AM", "1:00 PM"]
+      }
+    },
+    {
+      "question": "I'd like to book an appointment with a cardiologist on November 15th, 17th, or 19th, sometime in the afternoon. What times are available?",
+      "symptoms": "Chest pain and shortness of breath",
+      "type": "cardiologist",
+      "available_times": {
+        "November 15": ["1:00 PM", "2:00 PM", "3:00 PM"],
+        "November 17": ["2:00 PM", "3:00 PM"],
+        "November 19": ["12:00 PM", "3:00 PM"]
+      }
+    },
+    {
+      "question": "Can I book an appointment with a pulmonologist? I'm available on November 22nd, 24th, or 26th, preferably late afternoon.",
+      "symptoms": "Wheezing and persistent cough",
+      "type": "pulmonologist",
+      "available_times": {
+        "November 22": ["3:00 PM", "4:00 PM"],
+        "November 24": ["2:00 PM", "4:00 PM"],
+        "November 26": ["3:00 PM", "5:00 PM"]
+      }
+    },
+    {
+      "question": "I would like to see a general physician on December 1st, 3rd, or 4th, in the morning. Can we arrange that?",
+      "symptoms": "Sore throat and mild fever",
+      "type": "general-physician",
+      "available_times": {
+        "December 1": ["9:00 AM", "10:00 AM"],
+        "December 3": ["8:00 AM", "9:00 AM"],
+        "December 4": ["10:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "I need a neurologist appointment for November 10th, 11th, or 14th in the afternoon. Can you fit me in?",
+      "symptoms": "Frequent migraines and vision disturbances",
+      "type": "neurologist",
+      "available_times": {
+        "November 10": ["1:00 PM", "3:00 PM"],
+        "November 11": ["12:00 PM", "2:00 PM"],
+        "November 14": ["2:00 PM", "4:00 PM"]
+      }
+    },
+    {
+      "question": "I'd like to see a cardiologist. I'm available on November 18th, 20th, or 21st, preferably early afternoon.",
+      "symptoms": "Irregular heartbeat and lightheadedness",
+      "type": "cardiologist",
+      "available_times": {
+        "November 18": ["12:00 PM", "2:00 PM"],
+        "November 20": ["1:00 PM", "3:00 PM"],
+        "November 21": ["2:00 PM", "3:00 PM"]
+      }
+    },
+    {
+      "question": "Can I schedule an appointment with a pulmonologist on November 25th, 27th, or December 2nd in the morning?",
+      "symptoms": "Shortness of breath and coughing at night",
+      "type": "pulmonologist",
+      "available_times": {
+        "November 25": ["8:00 AM", "9:00 AM"],
+        "November 27": ["9:00 AM", "10:00 AM"],
+        "December 2": ["8:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "I'd like to book an appointment with a general physician. I'm available on December 3rd, 5th, or 7th, around noon.",
+      "symptoms": "Body aches and cold symptoms",
+      "type": "general-physician",
+      "available_times": {
+        "December 3": ["12:00 PM", "1:00 PM"],
+        "December 5": ["11:00 AM", "12:00 PM"],
+        "December 7": ["12:00 PM", "2:00 PM"]
+      }
+    },
+    {
+      "question": "Can I get an appointment with a neurologist? I'm free on December 10th, 12th, or 13th in the afternoon.",
+      "symptoms": "Severe headaches and blurred vision",
+      "type": "neurologist",
+      "available_times": {
+        "December 10": ["2:00 PM", "3:00 PM"],
+        "December 12": ["1:00 PM", "3:00 PM"],
+        "December 13": ["2:00 PM", "4:00 PM"]
+      }
+    },
+    {
+      "question": "I would like to see a cardiologist on December 6th, 8th, or 9th, preferably in the morning.",
+      "symptoms": "Palpitations and chest discomfort",
+      "type": "cardiologist",
+      "available_times": {
+        "December 6": ["8:00 AM", "10:00 AM"],
+        "December 8": ["9:00 AM", "10:00 AM"],
+        "December 9": ["8:00 AM", "9:00 AM"]
+      }
+    },
+    {
+      "question": "Can I book an appointment with a pulmonologist on December 11th, 13th, or 14th in the afternoon?",
+      "symptoms": "Persistent cough and difficulty breathing",
+      "type": "pulmonologist",
+      "available_times": {
+        "December 11": ["1:00 PM", "2:00 PM"],
+        "December 13": ["2:00 PM", "3:00 PM"],
+        "December 14": ["12:00 PM", "2:00 PM"]
+      }
+    },
+    {
+      "question": "I'm available on December 4th, 6th, or 8th for a general physician appointment in the late morning. Can we set something up?",
+      "symptoms": "Mild nausea and tiredness",
+      "type": "general-physician",
+      "available_times": {
+        "December 4": ["10:00 AM", "11:00 AM"],
+        "December 6": ["11:00 AM", "12:00 PM"],
+        "December 8": ["10:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "I'd like to see a neurologist. Can I get an appointment on December 15th, 17th, or 18th in the morning?",
+      "symptoms": "Loss of balance and memory issues",
+      "type": "neurologist",
+      "available_times": {
+        "December 15": ["8:00 AM", "9:00 AM"],
+        "December 17": ["9:00 AM", "10:00 AM"],
+        "December 18": ["8:00 AM", "10:00 AM"]
+      }
+    },
+    {
+      "question": "Can I book an appointment with a cardiologist? I'm available on December 19th, 21st, or 22nd, in the afternoon.",
+      "symptoms": "High blood pressure and chest tightness",
+      "type": "cardiologist",
+      "available_times": {
+        "December 19": ["1:00 PM", "2:00 PM"],
+        "December 21": ["2:00 PM", "3:00 PM"],
+        "December 22": ["3:00 PM", "4:00 PM"]
+      }
+    },
+    {
+      "question": "I'm looking to see a pulmonologist. I'm available on December 18th, 20th, or 23rd in the morning. Can you arrange something?",
+      "symptoms": "Coughing with mucus and chest congestion",
+      "type": "pulmonologist",
+      "available_times": {
+        "December 18": ["8:00 AM", "9:00 AM"],
+        "December 20": ["9:00 AM", "10:00 AM"],
+        "December 23": ["8:00 AM", "11:00 AM"]
+      }
+    },
+        {
+      "question": "Hi, I'd like to schedule a general physician appointment. I'm available on December 6th, 8th, or 10th in the morning.",
+      "symptoms": "Upset stomach and dizziness",
+      "type": "general-physician",
+      "available_times": {
+        "December 6": ["9:00 AM", "10:00 AM"],
+        "December 8": ["8:00 AM", "9:00 AM"],
+        "December 10": ["10:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "Can I book an appointment with a neurologist on December 14th, 16th, or 18th, preferably in the afternoon?",
+      "symptoms": "Tingling sensation in arms and legs",
+      "type": "neurologist",
+      "available_times": {
+        "December 14": ["1:00 PM", "3:00 PM"],
+        "December 16": ["2:00 PM", "4:00 PM"],
+        "December 18": ["12:00 PM", "1:00 PM"]
+      }
+    },
+    {
+      "question": "I'd like to see a cardiologist. I'm available on December 9th, 11th, or 12th in the afternoon.",
+      "symptoms": "Heart palpitations and fatigue",
+      "type": "cardiologist",
+      "available_times": {
+        "December 9": ["12:00 PM", "1:00 PM"],
+        "December 11": ["1:00 PM", "3:00 PM"],
+        "December 12": ["12:00 PM", "2:00 PM"]
+      }
+    },
+    {
+      "question": "I'm looking for a pulmonologist appointment on December 13th, 15th, or 17th in the morning.",
+      "symptoms": "Chronic cough and difficulty breathing",
+      "type": "pulmonologist",
+      "available_times": {
+        "December 13": ["9:00 AM", "10:00 AM"],
+        "December 15": ["8:00 AM", "10:00 AM"],
+        "December 17": ["9:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "I'd like to book an appointment with a general physician on December 4th, 6th, or 8th, preferably around noon.",
+      "symptoms": "Fever and body chills",
+      "type": "general-physician",
+      "available_times": {
+        "December 4": ["11:00 AM", "12:00 PM"],
+        "December 6": ["12:00 PM", "1:00 PM"],
+        "December 8": ["11:00 AM", "1:00 PM"]
+      }
+    },
+    {
+      "question": "Can I schedule an appointment with a neurologist? I'm available on December 9th, 11th, or 13th in the afternoon.",
+      "symptoms": "Memory problems and trouble concentrating",
+      "type": "neurologist",
+      "available_times": {
+        "December 9": ["1:00 PM", "2:00 PM"],
+        "December 11": ["2:00 PM", "3:00 PM"],
+        "December 13": ["12:00 PM", "2:00 PM"]
+      }
+    },
+    {
+      "question": "I'm looking for a cardiologist appointment on December 7th, 9th, or 10th, preferably in the morning.",
+      "symptoms": "Chest tightness and dizziness",
+      "type": "cardiologist",
+      "available_times": {
+        "December 7": ["8:00 AM", "9:00 AM"],
+        "December 9": ["9:00 AM", "10:00 AM"],
+        "December 10": ["10:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "Can I book an appointment with a pulmonologist on December 8th, 10th, or 12th in the afternoon?",
+      "symptoms": "Frequent wheezing and shortness of breath",
+      "type": "pulmonologist",
+      "available_times": {
+        "December 8": ["1:00 PM", "2:00 PM"],
+        "December 10": ["2:00 PM", "3:00 PM"],
+        "December 12": ["12:00 PM", "1:00 PM"]
+      }
+    },
+    {
+      "question": "I'd like to book a general physician appointment. I'm available on December 10th, 12th, or 14th in the morning.",
+      "symptoms": "Fatigue and muscle aches",
+      "type": "general-physician",
+      "available_times": {
+        "December 10": ["8:00 AM", "9:00 AM"],
+        "December 12": ["9:00 AM", "10:00 AM"],
+        "December 14": ["8:00 AM", "10:00 AM"]
+      }
+    },
+    {
+      "question": "Can I schedule a neurologist appointment on December 11th, 13th, or 15th in the afternoon?",
+      "symptoms": "Sharp headaches and balance issues",
+      "type": "neurologist",
+      "available_times": {
+        "December 11": ["1:00 PM", "3:00 PM"],
+        "December 13": ["2:00 PM", "3:00 PM"],
+        "December 15": ["12:00 PM", "2:00 PM"]
+      }
+    },
+    {
+      "question": "I'd like to see a cardiologist. I'm available on December 16th, 18th, or 20th in the afternoon.",
+      "symptoms": "Chest pain and shortness of breath",
+      "type": "cardiologist",
+      "available_times": {
+        "December 16": ["1:00 PM", "2:00 PM"],
+        "December 18": ["2:00 PM", "3:00 PM"],
+        "December 20": ["3:00 PM", "4:00 PM"]
+      }
+    },
+    {
+      "question": "Can I book an appointment with a pulmonologist? I'm available on December 17th, 19th, or 21st in the morning.",
+      "symptoms": "Persistent cough and wheezing",
+      "type": "pulmonologist",
+      "available_times": {
+        "December 17": ["9:00 AM", "10:00 AM"],
+        "December 19": ["8:00 AM", "9:00 AM"],
+        "December 21": ["9:00 AM", "10:00 AM"]
+      }
+    },
+    {
+      "question": "I'd like to schedule a general physician appointment. I'm available on December 18th, 20th, or 22nd in the morning.",
+      "symptoms": "Sore throat and congestion",
+      "type": "general-physician",
+      "available_times": {
+        "December 18": ["10:00 AM", "11:00 AM"],
+        "December 20": ["11:00 AM", "12:00 PM"],
+        "December 22": ["10:00 AM", "12:00 PM"]
+      }
+    },
+    {
+      "question": "Can I get an appointment with a neurologist? I'm available on December 21st, 23rd, or 24th in the afternoon.",
+      "symptoms": "Numbness in limbs and difficulty speaking",
+      "type": "neurologist",
+      "available_times": {
+        "December 21": ["1:00 PM", "2:00 PM"],
+        "December 23": ["2:00 PM", "3:00 PM"],
+        "December 24": ["1:00 PM", "3:00 PM"]
+      }
+    },
+    {
+      "question": "I need to see a cardiologist. I'm available on December 25th, 27th, or 29th in the afternoon.",
+      "symptoms": "Irregular heartbeat and chest discomfort",
+      "type": "cardiologist",
+      "available_times": {
+        "December 25": ["2:00 PM", "3:00 PM"],
+        "December 27": ["3:00 PM", "4:00 PM"],
+        "December 29": ["2:00 PM", "4:00 PM"]
+      }
+    },
+    {
+      "question": "Can I book an appointment with a pulmonologist? I'm available on December 28th, 30th, or January 2nd in the morning.",
+      "symptoms": "Shortness of breath and coughing up blood",
+      "type": "pulmonologist",
+      "available_times": {
+        "December 28": ["9:00 AM", "10:00 AM"],
+        "December 30": ["10:00 AM", "11:00 AM"],
+        "January 2": ["9:00 AM", "11:00 AM"]
+          }
+    },
+    {
+      "question": "I'd like to schedule a general physician appointment. I'm available on January 3rd, 5th, or 7th in the morning.",
+      "symptoms": "Frequent headaches and fatigue",
+      "type": "general-physician",
+      "available_times": {
+        "January 3": ["8:00 AM", "9:00 AM"],
+        "January 5": ["9:00 AM", "10:00 AM"],
+        "January 7": ["8:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "Can I get an appointment with a neurologist? I'm available on January 10th, 12th, or 14th in the afternoon.",
+      "symptoms": "Memory loss and confusion",
+      "type": "neurologist",
+      "available_times": {
+        "January 10": ["1:00 PM", "2:00 PM"],
+        "January 12": ["12:00 PM", "2:00 PM"],
+        "January 14": ["1:00 PM", "3:00 PM"]
+      }
+    },
+    {
+      "question": "I need to see a cardiologist. I'm available on January 17th, 19th, or 21st in the afternoon.",
+      "symptoms": "Chest pain and shortness of breath",
+      "type": "cardiologist",
+      "available_times": {
+        "January 17": ["1:00 PM", "2:00 PM"],
+        "January 19": ["2:00 PM", "3:00 PM"],
+        "January 21": ["3:00 PM", "4:00 PM"]
+      }
+    },
+    {
+      "question": "Can I book an appointment with a pulmonologist? I'm available on January 24th, 26th, or 28th in the morning.",
+      "symptoms": "Wheezing and persistent cough",
+      "type": "pulmonologist",
+      "available_times": {
+        "January 24": ["8:00 AM", "9:00 AM"],
+        "January 26": ["9:00 AM", "10:00 AM"],
+        "January 28": ["8:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "I'd like to schedule a general physician appointment. I'm available on January 29th, 31st, or February 2nd in the morning.",
+      "symptoms": "Sore throat and mild fever",
+      "type": "general-physician",
+      "available_times": {
+        "January 29": ["9:00 AM", "10:00 AM"],
+        "January 31": ["8:00 AM", "9:00 AM"],
+        "February 2": ["10:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "Can I get an appointment with a neurologist? I'm available on February 5th, 7th, or 9th in the afternoon.",
+      "symptoms": "Dizziness and occasional numbness in hands",
+      "type": "neurologist",
+      "available_times": {
+        "February 5": ["12:00 PM", "1:00 PM"],
+        "February 7": ["1:00 PM", "2:00 PM"],
+        "February 9": ["12:00 PM", "3:00 PM"]
+      }
+    },
+    {
+      "question": "I need to see a cardiologist. I'm available on February 12th, 14th, or 16th in the afternoon.",
+      "symptoms": "Chest pain and shortness of breath",
+      "type": "cardiologist",
+      "available_times": {
+        "February 12": ["1:00 PM", "2:00 PM"],
+        "February 14": ["2:00 PM", "3:00 PM"],
+        "February 16": ["3:00 PM", "4:00 PM"]
+      }
+    },
+    {
+      "question": "Can I book an appointment with a pulmonologist? I'm available on February 19th, 21st, or 23rd in the morning.",
+      "symptoms": "Wheezing and persistent cough",
+      "type": "pulmonologist",
+      "available_times": {
+        "February 19": ["8:00 AM", "9:00 AM"],
+        "February 21": ["9:00 AM", "10:00 AM"],
+        "February 23": ["8:00 AM", "11:00"]
+        }
+    },
+    {
+      "question": "I'd like to schedule a general physician appointment. I'm available on February 24th, 26th, or 28th in the morning.",
+      "symptoms": "Sore throat and mild fever",
+      "type": "general-physician",
+      "available_times": {
+        "February 24": ["9:00 AM", "10:00 AM"],
+        "February 26": ["8:00 AM", "9:00 AM"],
+        "February 28": ["10:00 AM", "11:00 AM"]
+      }
+    },
+    {
+      "question": "Can I get an appointment with a neurologist? I'm available on March 3rd, 5th, or 7th in the afternoon.",
+      "symptoms": "Dizziness and occasional numbness in hands",
+      "type": "neurologist",
+      "available_times": {
+        "March 3": ["12:00 PM", "1:00 PM"],
+        "March 5": ["1:00 PM", "2:00 PM"],
+        "March 7": ["12:00 PM", "3:00 PM"]
+      }
+    },
+    {
+      "question": "I need to see a cardiologist. I'm available on March 10th, 12th, or 14th in the afternoon.",
+      "symptoms": "Chest pain and shortness of breath",
+      "type": "cardiologist",
+      "available_times": {
+        "March 10": ["1:00 PM", "2:00 PM"],
+        "March 12": ["2:00 PM", "3:00 PM"],
+        "March 14": ["3:00 PM", "4:00 PM"]
+      }
+    },
+    {
+      "question": "Can I book an appointment with a pulmonologist? I'm available on March 17th, 19th, or 21st in the morning.",
+      "symptoms": "Wheezing and persistent cough",
+      "type": "pulmonologist",
+      "available_times": {
+        "March 17": ["8:00 AM", "9:00 AM"],
+        "March 19": ["9:00 AM", "10:00 AM"],
+        "March 21": ["8:00 AM", "11:00 AM"]
+        }
+    }
+    ]
+}
+
+
