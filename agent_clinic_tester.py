@@ -4,6 +4,27 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BertForSequenceClassification, BertTokenizer
 from datetime import datetime
 
+# data to test on
+test_data = {
+    "question": "Hi, I would like to book an appointment with a general physician. I'm available on November 3rd, 5th, or 7th, preferably in the morning. Is that possible?",
+    "symptoms": "Mild headache and fatigue",
+    "type": "general physician",
+    "available_times": {
+        "November 4": ["8:00 AM", "9:00 AM"],
+        "November 5": ["9:00 AM", "10:00 AM"],
+        "November 7": ["8:00 AM", "11:00 AM"]
+    },
+    "expected_output": {
+        "date": "November 4",
+        "time": "9:00 AM",
+        "doctor": "Ryan",
+        "domain": "general physician",
+        "patient_name": "John Doe",
+        "contact": "1234567890",
+        "insurance_number": "ABC123"
+    }
+}
+
 # load LLAMA-3.2-3b for doctor role
 doctor_model = "meta-llama/llama-3.2-3b"  # Pretrained model for doctor role
 doctor_tokenizer = AutoTokenizer.from_pretrained(doctor_model)
