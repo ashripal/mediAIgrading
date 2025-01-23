@@ -1,7 +1,7 @@
 import openai
 import json
 
-# Set your OpenAI API key
+
 
 
 # Define the prompt
