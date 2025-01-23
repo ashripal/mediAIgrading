@@ -2,7 +2,7 @@ import openai
 import json
 
 # Set your OpenAI API key
-openai.api_key = "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"
+#openai.api_key = "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"
 
 # Define the prompt
 prompt = """
