@@ -4,12 +4,12 @@ import json
 from huggingface_hub import login
 
 # Use your Hugging Face token
-token = "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"
-login(token=token)
+
+#login(token=token)
 
 # Load the Llama model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B", token=token)
-model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B", token=token)
+#tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B", token=token)
+#model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B", token=token)
 
 # Define the prompt
 prompt = """
