@@ -62,11 +62,14 @@ llm_prompts = load_json("LLMPrompts.json")
 def generate_patient_response(question_text, symptoms, available_times, response_type):
     # Define different speech styles in prompts
     if response_type == 'simple':
-        style_prompt = "The patient is responding in clear, simple English. No complex words."
+        style_prompt = "Respond in clear, simple English. Avoid using complex words."
     elif response_type == 'lingo':
-        style_prompt = "The patient uses slang in their response. Use informal language and casual tone."
+        style_prompt = "Respond using slang and informal language. Adopt a casual tone."
     elif response_type == 'filler':
-        style_prompt = "The patient is hesitant and uses filler words like 'um', 'like', and 'uh'."
+        style_prompt = "Respond hesitantly, incorporating filler words like 'um', 'like', and 'uh'."
+    else:
+        style_prompt = "Respond in a neutral and professional tone."  # Default style
+
 
     prompt = f"""
     You are a patient having a conversation with a doctor. The doctor has asked the following question:

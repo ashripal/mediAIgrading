@@ -1,8 +1,15 @@
-import openai
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
 import json
+from huggingface_hub import login
 
-# Set your OpenAI API key
-openai.api_key = "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"
+# Use your Hugging Face token
+token = "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"
+login(token=token)
+
+# Load the Llama model and tokenizer
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B", token=token)
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B", token=token)
 
 # Define the prompt
 prompt = """
@@ -50,50 +57,31 @@ AI Assistant: "Hello! How can I assist you today?"
 Patient: "Hi, I’m having chest pain and shortness of breath."
 """
 
-# Generate conversation using GPT-4
-def generate_conversation(prompt, max_tokens=1000):
-    response = openai.ChatCompletion.create(
-        model="gpt-4",
-        messages=[{"role": "system", "content": prompt}],
-        max_tokens=max_tokens,
+# Generate conversation using the model
+def generate_conversation(prompt, max_length=512):
+    inputs = tokenizer(prompt, return_tensors="pt")
+    outputs = model.generate(
+        inputs["input_ids"],
+        max_length=max_length,
         temperature=0.7,
+        num_return_sequences=1,
+        pad_token_id=tokenizer.eos_token_id
     )
-    return response["choices"][0]["message"]["content"]
+    return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-# Validate JSON response for all necessary fields
-def validate_appointment_json(appointment_json):
-    required_fields = [
-        "date", "time", "doctor", "domain",
-        "patient_name", "contact", "insurance_number"
-    ]
-    missing_fields = [field for field in required_fields if field not in appointment_json]
-    if missing_fields:
-        raise ValueError(f"Missing fields in the appointment JSON: {missing_fields}")
-    print("Validation successful: All required fields are present.")
-
-# Save JSON to file
-def save_json_to_file(data, filename="appointment.json"):
-    with open(filename, "w") as f:
-        json.dump(data, f, indent=4)
-    print(f"Appointment details saved to {filename}")
-
-# Get the response from GPT-4
+# Get the response from the model
 conversation_output = generate_conversation(prompt)
 
 # Print the output
 print("Generated Conversation:")
 print(conversation_output)
 
-# Extract JSON response from the conversation
+# Extract JSON response from the conversation (if included)
 try:
     json_start = conversation_output.find("{")
     json_end = conversation_output.rfind("}") + 1
     appointment_json = json.loads(conversation_output[json_start:json_end])
     print("\nExtracted Appointment Details:")
     print(json.dumps(appointment_json, indent=4))
-
-    # Validate the JSON and save to file
-    validate_appointment_json(appointment_json)
-    save_json_to_file(appointment_json)
 except Exception as e:
-    print(f"\nError: {e}\nFailed to extract or validate JSON response. Check the conversation output.")
+    print("\nFailed to extract JSON response. Check the conversation output.")

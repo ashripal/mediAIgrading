@@ -1,0 +1,32 @@
+{
+    "conversation": [
+        {
+            "agent": "Hello! How can I assist you today?",
+            "patient": "Hi, I’m having chest pain and feeling shortness of breath. I think I need to see a doctor."
+        },
+        {
+            "agent": "I’m sorry to hear that. Based on your symptoms, a cardiologist would be best to consult. Dr. Jacob, our cardiologist, is available on Fridays from 1 PM to 3 PM. Would that work for you?",
+            "patient": "Yes, Friday at 1 PM sounds good."
+        },
+        {
+            "agent": "Perfect. Could you please provide your full name for the appointment?",
+            "patient": "Sure, it’s Sarah Connor."
+        },
+        {
+            "agent": "Thank you, Sarah. May I have your contact details, such as your phone number or email address?",
+            "patient": "You can reach me at 555-123-4567."
+        },
+        {
+            "agent": "Got it. Lastly, do you have an insurance number you’d like to use for this appointment?",
+            "patient": "Yes, my insurance number is INS-987654321."
+        },
+        {
+            "agent": "Thank you for sharing the details. Let me confirm your appointment:\n\n- Date: This Friday\n- Time: 1:00 PM\n- Doctor: Dr. Jacob\n- Specialization: Cardiologist\n- Patient Name: Sarah Connor\n- Contact: 555-123-4567\n- Insurance Number: INS-987654321\n\nDoes everything look correct?",
+            "patient": "Yes, that’s perfect."
+        },
+        {
+            "agent": "Great! Your appointment is confirmed. Please arrive 10 minutes early and bring your insurance card. Have a great day, Sarah!",
+            "patient": null
+        }
+    ]
+}
